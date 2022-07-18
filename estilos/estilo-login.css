@@ -3,13 +3,14 @@ body {
     padding: 0;
     background: url(../img/fondo.jpg) no-repeat center top;
     background-size:cover;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     height: 100vh;
+
 }
 
 .caja-login {
     width: 430px;
-    height: 430px;
+    height: 460px;
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     top: 50%;

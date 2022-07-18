@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro de Usuario</title>
     <link rel="stylesheet" href="../estilos/estilo-registro.css">
+    <link rel="icon" href="../img/inventario.png">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@200;400&family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="caja-login">
@@ -25,6 +27,7 @@
            <input id='registro' type="submit" value="Crear Cuenta" onclick="reg()">
 
            <a href="../login.php">¿Ya tiene una cuenta? Inicie sesión aquí</a>
+           <a href="../index.php">INICIO</a>
            
         </form>
     </div>
