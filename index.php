@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@200;400&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <title>Bienvenido</title>
 </head>
+
+<!--PAGINA PRINCIPAL-->
 <body>
     <header>
        
@@ -21,8 +23,7 @@
 
         <h2>Porfavor Inicie Sesion o Registrese </h2> 
         <a href="login.php"> <b>Iniciar Sesión</b></a> o
-        <a href="php/registro-usuarios.php"> <b>Registrarse</b></a>
+        <a href="registro-usuarios.php"> <b>Registrarse</b></a>
     </div>
 </body>
 </html>
-<?php ?>

@@ -8,8 +8,8 @@ body {
 }
 
 .caja-login {
-    width: 430px;
-    height: 515px;
+    width: 530px;
+    height: 855px;
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     top: 50%;
@@ -53,7 +53,9 @@ body {
 }
 
 .caja-login input[type="text"],
-.caja-login input[type="password"] {
+.caja-login input[type="password"], 
+.caja-login input[type="number"],
+.caja-login input[type="email"]{
     border:none;
     border-bottom: 1px solid rgb(0, 0, 0);
     background: transparent;
@@ -64,7 +66,7 @@ body {
 }
 
 .caja-login input[type="submit"] {
-    border: none;
+    border: solid 1px black;
     outline: none;
     height: 40px;
     background: #FFC100 ;
@@ -73,10 +75,14 @@ body {
     margin-top: 5px;
     margin-bottom: 30px ;
 }
+.caja-login input[type="submit"]:hover {
+    background-color: #ade8f4;
+    border: solid 1px black;
+}
 
 .caja-login a {
     text-decoration: none;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 20px;
     color: darkgray;
     margin: 10px;
@@ -85,4 +91,9 @@ body {
 
 .caja-login a:hover {
     color: #FFC100;
+    
 }
+
+/*#registro:hover {
+    color:#3bb1e7 ;
+}*/
