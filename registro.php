@@ -5,7 +5,8 @@ require_once('Models/conexion-Postgresql.php');
 class Usuarios 
 {
     public $datos;
-    public static function insercionDatos(){
+    public static function insercionDatos()
+    {
 
         #Datos del formulario de registro
         $cedula = $_POST["cedula"];
