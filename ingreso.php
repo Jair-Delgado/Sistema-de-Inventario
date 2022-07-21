@@ -20,8 +20,8 @@
                <!--Mensaje de Bienvenida al usuario--> 
                     <?php
                             session_start();
-                            $correo=$_SESSION['nombre_usuario'];
-                            echo "<h1>Bienvenido $correo</h1>";    
+                            $nombre=$_SESSION['nombre_usuario'];
+                            echo "<h1>Bienvenido $nombre</h1>";    
                     ?>
               <h1>MENU INVENTARIO</h1> <a id="cerrar-sesion" href="index.php">Cerrar Sesion</a>
             </nav>
