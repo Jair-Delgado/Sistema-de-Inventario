@@ -19,29 +19,52 @@
 
             <!--Numero de cedula--> 
             <label for="cedula">Numero de Cedula</label>
-            <input name="cedula" type="number"  placeholder="Ingrese su número de cedula" required >
+            <div>
+                <input name="cedula" type="number"  placeholder="Ingrese su número de cedula" required >
+
+            </div>
             <!--Nombre--> 
             <label for="nombre">Nombre</label>
-            <input name="nombre" type="text" placeholder="Ingrese su nombre" required>
+            <div>
+                <input name="nombre" type="text" placeholder="Ingrese su nombre" required>
+
+            </div>
 
             <!--Apellido--> 
             <label for="apellido">Apellido</label>
-            <input name="apellido" type="text" placeholder="Ingrese su apellido" required>
+            <div>
+                <input name="apellido" type="text" placeholder="Ingrese su apellido" required>
+
+            </div>
 
             <!--Usuario--> 
             <label for="email">Correo electronico</label>
-            <input name="email" type="email" placeholder="Ingrese su correo electronico" required>
+            <div class="formulario_input">
+                <input name="email" type="email" placeholder="Ingrese su correo electronico" required>
+                <i class="validacion_estado fa-solid fa-message-exclamation"></i>
+
+            </div>
+            <p class="error">El correo debe tener la estructura @</p>
             <!--Telefono--> 
             <label for="telefono">Numero de Telefono</label>
-            <input name="telefono" type="number" placeholder="Ingrese su numero de telefono" required>
+            <div>
+                <input name="telefono" type="number" placeholder="Ingrese su numero de telefono" required>
+
+            </div>
 
             <!--Contraseña--> 
             <label for="contraseña">Contraseña</label>
-            <input name="contraseña" type="password" placeholder="Ingrese una contraseña" required>
+            <div>
+                <input name="contraseña" type="password" placeholder="Ingrese una contraseña" required>
+
+            </div>
 
             <!--Repetir contraseña--> 
             <label for="contraseñax2"></label>
-            <input name="contraseñax2" type="password" placeholder="Vuelva a escribir su contraseña" required>
+            <div>
+                <input name="contraseñax2" type="password" placeholder="Vuelva a escribir su contraseña" required>
+
+            </div>
 
             <!--Boton para crear la cuenta-->
                 <input id="registro" type="submit" value="Crear Cuenta">
