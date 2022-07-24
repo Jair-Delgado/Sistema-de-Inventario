@@ -19,7 +19,7 @@
         <form autocomplete="off" action="registro.php" method="POST" class="formulario" id="formulario">
             
         <!--Numero de cedula--> 
-            <div class="formulario__grupo formulario__grupo-incorrecto" id="grupo__cedula">
+            <div class="formulario__grupo" id="grupo__cedula">
                     <label for="cedula" class="formulario__label">Número de Cedula</label>
                 <div class="formulario__grupo-input">
                     <input name="cedula" type="text" class="formulario__input"  placeholder="1745970417" required >
@@ -102,11 +102,9 @@
             <input id="registro" type="submit" value="Crear Cuenta">
         
             <!--Links de redireccion-->
-            <div>
-                <a href="login.php">¿Ya tiene una cuenta? Inicie sesión aquí</a>
-                <a href="index.php">INICIO</a>
-            </div>
-            
+           
+                <a href="login.php"> <i class=" regresar fa-solid fa-clipboard-user"> Acceder con una cuenta</i></a>
+                    <a href="index.php"><i class=" regresar fa-solid fa-tent-arrow-turn-left"> Volver al Inicio</i></a>
         </form>
 </main>
 

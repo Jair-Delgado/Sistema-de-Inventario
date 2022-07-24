@@ -19,9 +19,12 @@
                <div class="icono-usuario"> <i class="fa-solid fa-user"></i> </div>
                <!--Mensaje de Bienvenida al usuario--> 
                     <?php
+
+                        require_once('Models/conexion-Postgresql.php');
                             session_start();
                             $nombre=$_SESSION['nombre_usuario'];
-                            echo "<h1>Bienvenido $nombre</h1>";    
+                            echo "<h1>Bienvenido $nombre</h1>";  
+
                     ?>
               <h1>MENU INVENTARIO</h1> <a id="cerrar-sesion" href="index.php">Cerrar Sesion</a>
             </nav>

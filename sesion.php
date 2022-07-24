@@ -14,7 +14,7 @@ class Logueo
      
     public  function iniciarSesion() 
     {
-        $correo =$_POST['user'];
+        $correo =$_POST['email'];
         $clave=$_POST['pass'];
    
        //Consulta a la tabla empleados para validar el ingreso
