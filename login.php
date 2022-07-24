@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="estilos/estilo-login.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@200;400&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Sistema de Inventario</title>
 </head>
 
@@ -22,7 +23,7 @@
             <!--Email--> 
             <div class="formulario__grupo" id="grupo__email">
                 <label for="email" class="formulario__label">Ingrese su correo electrónico</label>
-                <div>
+                <div class="formulario__grupo-input">
                     <input id="usuario" name="email" type="email"  class="formulario__input" placeholder="usuario@correo.com" required>
                     <i class=" formulario__validacion-estado fa-solid fa-triangle-exclamation"></i>
                 </div>
@@ -54,7 +55,7 @@
            </div>
         </form>
 </main>
-<script src="js/formulario.js"></script>
+<script src="js/formularioLogin.js"></script>
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 </body>
 </html>

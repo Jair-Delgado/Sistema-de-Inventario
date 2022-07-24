@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="estilos/estilo-registro.css">
     <link rel="icon" href="../img/inventario.png">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@200;400&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <!--Registro de nuevos usuarios-->
@@ -65,9 +66,8 @@
                 <div class="formulario__grupo-input">
                     <input name="contraseña" type="password" class="formulario__input" id="contraseña"  placeholder="Ingrese una contraseña" required>
                     <i class=" formulario__validacion-estado fa-solid fa-triangle-exclamation"></i>
-                    
-                    <p class="formulario__input-error">La contraseña debe ser de 5 a 10 dígitos</p>
                 </div>
+                <p class="formulario__input-error">La contraseña debe ser de 5 a 10 dígitos</p>
             </div>
             <!--Repetir contraseña--> 
             <div class="formulario__grupo" id="grupo__contraseñax2">

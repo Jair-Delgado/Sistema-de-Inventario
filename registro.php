@@ -19,8 +19,8 @@ class Usuarios
         #Ingreso de los datos del formulario a la tabla empleados
         $sql = "INSERT INTO empleados VALUES ('$cedula', '$nombre', '$apellido', '$email','$telefono', '$contraseña')";
         pg_query(Models\Conectar::$db, $sql);
-        $_SESSION['nombre_usuario']=$nombre;
-        header("location: ingreso.php");
+        //$_SESSION['nombre_usuario']=$nombre;
+        header("location: login.php");
         
     }
     
