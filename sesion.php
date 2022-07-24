@@ -8,7 +8,7 @@ class Logueo
     public  function iniciarSesion() 
     {
         $correo =$_POST['email'];
-        $clave=$_POST['pass'];
+        $clave=$_POST['contraseña'];
    
        //Consulta a la tabla empleados para validar el ingreso
        $query = "SELECT * FROM empleados WHERE email='$correo' AND contraseña= '$clave'";

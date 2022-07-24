@@ -35,7 +35,7 @@
             <div class="formulario__grupo" id="grupo__contraseña" >
                 <label for="contraseña" class="formulario__label">Ingrese su contraseña</label>
                 <div class= "formulario__grupo-input">
-                    <input id="contraseña" name="pass" type="password" placeholder="" class="formulario__input" required>
+                    <input id="contraseña" name="contraseña" type="password" placeholder="" class="formulario__input" required>
                     <i class=" formulario__validacion-estado fa-solid fa-triangle-exclamation"></i>
                 </div>
                 <p class="formulario__input-error">Contraseña incorrecta</p>

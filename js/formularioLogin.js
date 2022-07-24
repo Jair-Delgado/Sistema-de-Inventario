@@ -14,30 +14,11 @@ const campos = {
 //Cuando se escriba mal va a validar con lasexpresiones regulares
 const validarFormulario = (e) => {
 	switch (e.target.name) {
-		case "usuario":
-			validarCampo(expresiones.usuario, e.target, 'usuario');
-		break;
-		case "nombre":
-			validarCampo(expresiones.nombre, e.target, 'nombre');
-		break;
-		case "apellido":
-			validarCampo(expresiones.apellido, e.target, 'apellido');
-		break;
-		case "contraseña":
-			validarCampo(expresiones.password, e.target, 'contraseña');
-			validarPassword2();
-		break;
-		case "contraseñax2":
-			validarPassword2();
-		break;
 		case "email":
 			validarCampo(expresiones.correo, e.target, 'email');
 		break;
-		case "telefono":
-			validarCampo(expresiones.telefono, e.target, 'telefono');
-		break;
-        case "cedula":
-			validarCampo(expresiones.cedula, e.target, 'cedula');
+		case "contraseña":
+			validarCampo(expresiones.password, e.target, 'contraseña');
 		break;
         
 	}
@@ -61,7 +42,7 @@ const validarCampo = (expresion, input, campo) => {
 	}
 }
 //Verificar que las contraseñas sean iguales
-const validarPassword2 = () => {
+/*const validarPassword2 = () => {
 	const inputPassword1 = document.getElementById('contraseña');
 	const inputPassword2 = document.getElementById('contraseñax2');
 
@@ -80,7 +61,7 @@ const validarPassword2 = () => {
 		document.querySelector(`#grupo__contraseñax2 .formulario__input-error`).classList.remove('formulario__input-error-activo');
 		campos['password'] = true;
 	}
-}
+}*/
 
 inputs.forEach((input) => {
 	input.addEventListener('keyup', validarFormulario);
