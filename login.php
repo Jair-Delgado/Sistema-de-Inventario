@@ -23,10 +23,10 @@
             <div class="formulario__grupo" id="grupo__email">
                 <label for="email" class="formulario__label">Ingrese su correo electrónico</label>
                 <div>
-                    <input id="usuario" name="email" type="email"  class="formulario__input" placeholder="usuario@correo.com">
+                    <input id="usuario" name="email" type="email"  class="formulario__input" placeholder="usuario@correo.com" required>
                     <i class=" formulario__validacion-estado fa-solid fa-triangle-exclamation"></i>
                 </div>
-                <p class="formulario__input-error">El número de cédula solo contine numeros y es de una extensión de 10 digitos </p>
+                <p class="formulario__input-error">El correo solo puede contener letras, números, puntos, guiones y guión bajo y tener la estructura usuario@correo.com</p>
             </div>
 
 
@@ -34,22 +34,24 @@
             <div class="formulario__grupo" id="grupo__contraseña" >
                 <label for="contraseña" class="formulario__label">Ingrese su contraseña</label>
                 <div class= "formulario__grupo-input">
-                    <input id="contraseña" name="pass" type="password" placeholder="" class="formulario__input">
+                    <input id="contraseña" name="pass" type="password" placeholder="" class="formulario__input" required>
                     <i class=" formulario__validacion-estado fa-solid fa-triangle-exclamation"></i>
                 </div>
-                <p>Contraseña incorrecta</p>
+                <p class="formulario__input-error">Contraseña incorrecta</p>
 
             </div>
 
            <!--Boton para iniciar sesion-->
-           <input id="ejecutar" type="submit" value="Iniciar Sesion">
+           <input id="registro" type="submit" value="Iniciar Sesion">
 
             <!--Redireccion para crear una cuenta nueva-->
 
            
-           <a href="#"> <i class=" regresar fa-solid fa-clipboard-user"> Olvide la clave</i></a>
-           <a href="registro-usuarios.php"> <i class=" regresar fa-solid fa-clipboard-user"> Registrarse</i></a>
-           <a href="index.php"><i class=" regresar fa-solid fa-tent-arrow-turn-left"> Volver al Inicio</i></a>
+           <!--<a href="#"> <i class=" regresar fa-solid fa-clipboard-user"> Olvide la clave</i></a>-->
+           <div class="formulario__grupo">
+               <a href="registro-usuarios.php"> <i class=" regresar fa-solid fa-clipboard-user"> Registrarse</i></a> <br> <br>
+               <a href="index.php"><i class=" regresar fa-solid fa-tent-arrow-turn-left"> Volver al Inicio</i></a>
+           </div>
         </form>
 </main>
 <script src="js/formulario.js"></script>

@@ -22,8 +22,8 @@
 
                         require_once('Models/conexion-Postgresql.php');
                             session_start();
-                            $nombre=$_SESSION['nombre_usuario'];
-                            echo "<h1>Bienvenido $nombre</h1>";  
+                            $data=$_SESSION['nombre_usuario'];
+                            echo "<h1>Bienvenido $data</h1>";  
 
                     ?>
               <h1>MENU INVENTARIO</h1> <a id="cerrar-sesion" href="index.php">Cerrar Sesion</a>

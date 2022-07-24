@@ -1,12 +1,12 @@
 * {
 	box-sizing: border-box;
-    background-color: #3f2626;
+    
 	
 }
 
 body {
 	font-family: 'Roboto', sans-serif;
-	background-color: #3f2626;
+	background-color: #f5f0f0;
 	
 }
 
@@ -21,7 +21,6 @@ main {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 20px;
-    border: #000 solid 1px;
 	
 }
 
@@ -182,6 +181,7 @@ main {
 #registro:hover {
 	background-color: #2B3A67;
 	color: rgb(255, 255, 255);
+	opacity: 0.9;
 }
 
  a {
