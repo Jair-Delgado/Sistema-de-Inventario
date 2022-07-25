@@ -42,6 +42,7 @@
 
             </div>
 
+
            <!--Boton para iniciar sesion-->
            <input id="registro" type="submit" value="Iniciar Sesion">
 

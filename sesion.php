@@ -3,7 +3,13 @@
 require_once('Models/conexion-Postgresql.php');
 session_start();
 class Logueo 
-{
+{      
+    public static  $mensaje = "Las credenciales no coinciden";
+
+    public static function mensajeError(){
+        print self::$mensaje;
+    }
+
      //Método para guardar la informacion del login
     public  function iniciarSesion() 
     {
@@ -25,6 +31,7 @@ class Logueo
          * y se imprimirá cuando se inicie sesion dando un mensaje de Bienvenida, Si los datos 
          * del login no coinciden mostrará Datos incorrectos.
          */
+
         
        if($registro>0)
        {
@@ -35,7 +42,8 @@ class Logueo
                 header('location: ingreso.php');
        }else
        {
-           echo "Datos Incorrectos!";
+            //header('location: login.php');
+           Logueo::mensajeError();
        }
     }
 }
@@ -43,3 +51,4 @@ class Logueo
 //Objetos para llamar a los métodos
 $logueo = new Logueo();
 $logueo->iniciarSesion();
+

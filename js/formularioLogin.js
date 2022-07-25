@@ -17,9 +17,9 @@ const validarFormulario = (e) => {
 		case "email":
 			validarCampo(expresiones.correo, e.target, 'email');
 		break;
-		case "contraseña":
+		/*case "contraseña":
 			validarCampo(expresiones.password, e.target, 'contraseña');
-		break;
+		break;*/
         
 	}
 }
