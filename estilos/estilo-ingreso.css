@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    
 }
 a{
     text-decoration: none;
@@ -11,9 +11,8 @@ a{
 }
 
 body{
-    /*background: url(../img/Fondo.jpg);
-    background-size: cover;*/
-    
+    background: #f5f0f0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .con{

@@ -39,19 +39,19 @@
                 <main>
                     <a href="#">
                         <section>
-                            <h2>Consultar<br>stock<br>productos</h2>
+                            <h2>Consultar stock</h2>
+                        </section>
+                    </a>
+    
+                    <a href="Menu_inventario/pedido_proveedor.php">
+                        <section>
+                            <h2>Registrar productos</h2>
                         </section>
                     </a>
     
                     <a href="#">
                         <section>
-                            <h2>Realizar<br>pedido<br>a proveedor</h2>
-                        </section>
-                    </a>
-    
-                    <a href="#">
-                        <section>
-                            <h2>Registrar<br>entrega<br>del proveedor</h2>
+                            <h2>Registrar entrega del proveedor</h2>
                         </section>
                     </a>
                 </main>
