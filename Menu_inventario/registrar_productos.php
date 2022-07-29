@@ -69,7 +69,7 @@
                 <p class="formulario__input-error"></p>
             </div>
 
-            <input id="registro" type="submit" value="Crear Cuenta">        
+            <input id="registro" type="submit" value="Agregar Producto">        
             <!--Links de redireccion-->
            
     
