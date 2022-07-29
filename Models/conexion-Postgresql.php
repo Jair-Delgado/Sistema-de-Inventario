@@ -18,14 +18,6 @@
        or die ("La Base de datos no ha sido conectada" . pg_last_error());
         
         return self::$db;   
-
-        
-       /*if(self::$db){
-            echo "exito";
-        }else {
-            echo "no se conecto la base de datos" . pg_last_error();
-        }*/
-        
         
     }
     

@@ -45,6 +45,7 @@ class Logueo
             //header('location: login.php');
            Logueo::mensajeError();
        }
+
     }
 }
 

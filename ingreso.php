@@ -43,7 +43,7 @@
                         </section>
                     </a>
     
-                    <a href="Menu_inventario/pedido_proveedor.php">
+                    <a href="Menu_inventario/registrar_productos.php">
                         <section>
                             <h2>Registrar productos</h2>
                         </section>
