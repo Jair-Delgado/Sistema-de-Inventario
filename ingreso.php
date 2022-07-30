@@ -8,15 +8,39 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@200;400&family=Roboto:wght@100&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="estilos/estilo-ingreso.css">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
         <title>Sistema de Inventario</title>
     </head>
 
 <!--INGRESO DEL USUARIO LOGUEADO-->
  <body>
-       <div class="container">
-            <!--Navegacion-->
+       
+    <!--Navegacion-->
+    <header>
+        <div class="interior">
+        <a href="" class="logo" target="blank"><img src="img/inventario.png" alt="Logo"></a>
             <nav class="navegacion">
-               <div class="icono-usuario"> <i class="fa-solid fa-user"></i> </div>
+                <ul>
+                    
+                    <li><a href="ingreso.php" target="blank"><i class=" shop fa-solid fa-house-user"></i>Inicio</a></li>
+                    <li><a href="#" target="blank">Acerca de</a></li>
+                    <li><a href="#" target="blank">Contacto</a></li>
+                    <li class="submenu">
+                        <a href="#" target="blank"><i class=" shop fa-solid fa-id-card-clip" id="perfil"></i>Mi perfil</a>
+                        <ul class="hijos">
+                            <li><a href=""><i class="fa-solid fa-user-gear"></i>Ajustes</a></li>
+                            <li><a href=""><i class="fa-solid fa-user-pen"></i>Editar perfil</a></li>
+        
+                            <li><a href="index.php"><i class="fa-solid fa-bed"></i>Cerrar Sesión</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+            
+
                <!--Mensaje de Bienvenida al usuario--> 
                     <?php
 
@@ -26,15 +50,13 @@
                             echo "<h1>Bienvenido $data</h1>";  
 
                     ?>
-              <h1>MENU INVENTARIO</h1> <a id="cerrar-sesion" href="index.php">Cerrar Sesion</a>
-            </nav>
-       </div>
        <div class="con">
+
             <!--Caja gestor de productos-->
             <div class="contenedor">
-                <header>
+                
                     <h2>GESTOR DE PRODUCTOS</h2>
-                </header>
+                
     
                 <main>
                     <a href="#">
@@ -86,6 +108,15 @@
               </aside>
               
        </div>  
+    <script>
+        /*
+        function mostrarMenuPerfil()
+        {
+            document.getElementById('submenu').style.display = 'block';
+        }
+        let menuPerfil = document.getElementById("perfil");
+        menuPerfil.onclick = mostrarMenuPerfil;*/
+    </script>
  </body>
  </html>
  

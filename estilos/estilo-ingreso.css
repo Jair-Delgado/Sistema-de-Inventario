@@ -1,3 +1,4 @@
+/*
 *{
     margin: 0;
     padding: 0;
@@ -128,7 +129,7 @@ h1 {
 /*.cimarrones{
     width: 50px;
 }*/
-
+/*
 .navegacion ul {
     display: flex;
 
@@ -145,4 +146,123 @@ h1 {
     border-bottom: 2px solid black;
 
     
+}
+*/
+/*----------------------------------------------*/
+
+*{
+	margin: 5px 0px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background: #f5f0f0;
+}
+
+/* Barra de Navegación*/
+
+header{
+	width: 100%;
+	height: 100px;
+	background-color: #f6f9fc;
+    border: solid black 2px;
+    border-color: #2B3A67 ;
+    border-radius: 10px 10px 1px ;
+}
+
+.interior{
+	max-width: 100%;
+	padding:0;
+	margin: 0;
+}
+
+/*Imágen del Logo*/
+
+.logo{
+	float: left;
+	padding: 5px 10px;
+}
+
+.logo img{
+	height: 70px;
+}
+
+.logo img:hover{
+	transform: scale(1.1);
+}
+
+/*Links de la navegación*/
+
+.navegacion{
+	float: right;
+	display: flex;
+	align-items: center;
+    margin: 0 -10px;
+	min-height: 10px;
+	z-index: 1000;
+    /*border: solid 1px black;*/
+}
+.navegacion ul{
+	list-style: none;
+	padding: 0 10px;
+}
+.navegacion ul li{
+	display: inline-block;
+	position: relative;
+    margin: 0 -10px; 
+	transition: .2s linear;
+	z-index: 1000;
+   /* border: solid 1px black;*/
+}
+.navegacion ul li:hover{
+	transform: scale(1.1);
+}
+.navegacion ul li a{
+	color: #FFC53A;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 18px;
+	font-weight: bold;
+	transition: .1s linear;
+    padding: 5px 20px ;
+    display:grid;
+    grid-column: 1;
+    /*border: solid 1px black;*/
+}
+.navegacion ul li a:hover{
+	color: #2B3A67;
+	transform: scale(1.1);
+}
+
+/*Menu desplegable Productos*/
+
+.navegacion ul li:hover .hijos{
+	display: block;
+}
+
+.navegacion .submenu .hijos{
+	display: none;
+	background: #fff;
+	position: absolute;
+	width: 100%;
+    border: #2B3A67 solid 2px;
+    border-radius:  10px 0 10px 10px;
+    margin: 15px -5px;    
+}
+.navegacion .submenu .hijos li{
+	display: block;
+	overflow: hidden;
+	border-bottom: none;   
+}
+.navegacion .submenu .hijos li a{
+	display: block;
+    font-size: 15px;
+}
+.shop{
+    font-size: 25px;
+    padding: 0;
+    color: #2B3A67;
 }
