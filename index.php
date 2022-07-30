@@ -25,7 +25,7 @@
 
     <div>
 
-        <h2>Porfavor Inicie Sesion o Registrese </h2>
+        <h2>Porfavor Inicie Sesión o Regístrese </h2>
 
         <div class="text">
 

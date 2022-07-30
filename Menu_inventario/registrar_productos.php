@@ -16,7 +16,7 @@
 <body>
     <main>
         <h1>Agregar Producto</h1>
-        <form autocomplete="off" action="./Registros_Inventario/registro-productos.php" method="POST" class="formulario" id="formulario">
+        <form autocomplete="off" action="Registros_Inventario/registro-productos.php" method="POST" class="formulario" id="formulario">
             
         <!--Id del producto--> 
             <div class="formulario__grupo" id="grupo__id-producto">

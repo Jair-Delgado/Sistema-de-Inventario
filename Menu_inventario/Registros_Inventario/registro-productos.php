@@ -1,7 +1,7 @@
 <?php
 session_start();
 //Insercion de datos en la BDD
-require_once('../Sistema-de-Inventario/Models/conexion-Postgresql.php');
+include ('../../Models/conexion-Postgresql.php');
 
 class Productos 
 {
@@ -20,7 +20,8 @@ class Productos
         $sql = "INSERT INTO productos (id_prod, id_cat, nombre_prod, precio_unitario, cant_disp) VALUES ('$producto', '$categoria', '$nom_prod', '$precio','$cant_disp')";
         pg_query(Models\Conectar::$db, $sql);
         //$_SESSION['nombre_usuario']=$nombre;
-        header("location: registrar_productos.php");
+        header("location: ../registrar_productos.php");
+        
         
     }
     
