@@ -24,8 +24,6 @@
                 <ul>
                     
                     <li><a href="ingreso.php" target="blank"><i class=" shop fa-solid fa-house-user"></i>Inicio</a></li>
-                    <li><a href="#" target="blank">Acerca de</a></li>
-                    <li><a href="#" target="blank">Contacto</a></li>
                     <li class="submenu">
                         <a href="#" target="blank"><i class=" shop fa-solid fa-id-card-clip" id="perfil"></i>Mi perfil</a>
                         <ul class="hijos">
@@ -65,7 +63,7 @@
                         </section>
                     </a>
     
-                    <a href="Menu_inventario/existencia-productos.php">
+                    <a href="Menu_inventario/Registros_Inventario/registro-productos.php">
                         <section>
                             <h2>Registrar productos</h2>
                         </section>

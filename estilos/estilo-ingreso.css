@@ -6,16 +6,16 @@
     text-align: center;
     
 }
-a{
-    text-decoration: none;
-    color: black;
-}
 
 body{
     background: #f5f0f0;
     font-family: 'Roboto', sans-serif;
 }
-
+*/
+a{
+    text-decoration: none;
+    color: black;
+}
 .con{
     max-width: 1500px;
     display: flex;
@@ -34,7 +34,7 @@ body{
     border-radius: 10px;
 }
 
-header{
+/*header{
     border: 2px solid black;
     padding: 10px;
     border-radius: 9px;
@@ -46,7 +46,7 @@ main{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-}
+}*/
 
 section{
     border: 2px solid black;
@@ -250,7 +250,7 @@ header{
 	width: 100%;
     border: #2B3A67 solid 2px;
     border-radius:  10px 0 10px 10px;
-    margin: 15px -5px;    
+    margin: 15px -5px; 
 }
 .navegacion .submenu .hijos li{
 	display: block;
