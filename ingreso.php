@@ -36,8 +36,7 @@
                 </ul>
             </nav>
         </div>
-    </header>
-            
+        <div class="bienvenida-usuario">
 
                <!--Mensaje de Bienvenida al usuario--> 
                     <?php
@@ -48,6 +47,10 @@
                             echo "<h1>Bienvenido $data</h1>";  
 
                     ?>
+        </div>
+    </header>
+            
+
        <div class="con">
 
             <!--Caja gestor de productos-->
@@ -63,8 +66,8 @@
                         </section>
                     </a>
     
+                    <section>
                     <a href="Menu_inventario/Registros_Inventario/registro-productos.php">
-                        <section>
                             <h2>Registrar productos</h2>
                         </section>
                     </a>
